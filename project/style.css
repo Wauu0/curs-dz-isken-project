@@ -1,0 +1,180 @@
+body{
+    background-color: #0f0f0f;
+}
+
+.header{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    background-color: blueviolet;
+    width: 100vw;
+}
+.p-povelitel{
+    margin-left: auto;
+    margin-right: 15%;
+    display: flex;
+    gap: 20px;
+}
+.header-font{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 15%;
+
+}
+
+.main{
+    display: flex;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-top: 65px;
+    align-items: center;
+}
+
+.main-h1 {
+    margin-left: 5%;
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    width: 526px;
+}
+.listen-img{
+    display: block;
+    width: 1300px;
+}
+.listen-on {
+    display: block;
+}
+
+.level{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex: 1;
+}
+.nujno {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.nujno-p{
+    margin-left: 14%;
+    font-size: 64px;
+    font-weight: 400;
+    height: 10vh;
+}
+.nujno-btn {
+    background-color: aqua;
+    padding: 15px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px; 
+    margin-bottom: 55px;
+    margin-left: auto;
+    margin-right: 17%;
+}
+.main-img{
+    display: block;
+}
+
+/* Общий стиль для секций */
+.section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Разделитель секций */
+    margin-left: 14%;
+    background-color: black;
+    border-radius: 10px;
+    width: 68vw;
+    margin-bottom: 45px;
+}
+    
+/* Стиль для изображения */
+.section-image {
+    width: 350px; /* Ширина изображения */
+    height: auto;
+    margin-right: 20px; /* Отступ между изображением и текстом */
+    border-radius: 25px; /* Закругление углов */
+    object-fit: cover; /* Адаптация изображения */
+    padding: 10px;
+}
+
+/* Стиль для текстовой части */
+.section-text {
+    flex: 1; /* Занимает оставшееся пространство */
+}
+
+/* Дополнительные стили для текста */
+.section-text h2 {
+    margin: 0 0 10px; /* Отступы для заголовка */
+    font-size: 24px;
+    color: #333;
+}
+
+.section-text p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-top: 30px;
+    width: 450px;
+}
+
+.btn-section {
+    padding: 4px 10px;
+    letter-spacing: 1px;
+    background-color: #0f0f0f;
+    margin-bottom: 50px;
+    color: #ddd;
+}
+
+.section-text span{
+    color: #118da8;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.main-jacob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 330px;
+}
+.Jacob-content{
+    margin-right: 140px;
+    width: 550px;
+}
+.Jacob-content span{
+    color: #118DA8;
+}
+
+.Jacob-content h1{
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 2.88px;
+    line-height: 79px;
+    margin-top: 10px;
+    width: 300px;
+}
+.Jacob-content p{
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 30px;
+}
+.main-jacob img{
+    display: block;
+    margin-bottom: 30px;
+}
+.subscribe{
+    height: 1000px;
+}
